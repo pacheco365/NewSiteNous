@@ -1,0 +1,138 @@
+.navbar {
+    background-color: #71a8bf !important; /* Define a cor de fundo */
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link,
+  .navbar .navbar-text {
+    color: #fff !important; /* Define a cor do texto como branco */
+  }
+
+  /* Altera a cor do texto quando o mouse passar por cima */
+  .navbar .nav-link:hover {
+    color: #d0e6ed !important; /* Tom mais claro para hover */
+  }
+
+.c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+.s1{
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.s1 ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  width: auto;
+}
+
+.section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+.split-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+.avalaido{
+  font-size:large
+}
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f5963c;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-left, .footer-right {
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  .social-icons {
+      justify-content: center;
+  }
+}
+.row{
+  margin-top: 3%;
+}
+.custom-btn{
+  background-color: #5db1d4;
+  color: white;
+  border-color: #5db1d4;
+}
+  .custom-btn a:hover{
+    color: #5db1d4;
+    border-color: #5db1d4;
+
+  }
